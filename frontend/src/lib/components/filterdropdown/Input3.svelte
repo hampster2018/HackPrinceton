@@ -1,0 +1,28 @@
+<script lang="ts">
+export let inputValue3 = "";
+</script>
+
+<input type="text" placeholder="Search..." autocomplete="off" id="searchInput" bind:value={inputValue3} on:input>
+<span id="search-icon">🔍</span>
+
+<style>
+/* The search field */
+#searchInput {
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 10rem;
+  margin: 10px
+}
+#searchInput:focus {outline: 3px solid #ddd;}
+	
+#search-icon {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-size: 1.2rem;
+}	
+</style>

@@ -1,0 +1,14 @@
+./.venv
+.env
+textbookdbs/*
+!textbookdbs/.gitignore
+textbooks/*
+!textbooks/.gitignore
+textbooktxts/*
+!textbooktxts/.gitignore
+textbooktopics/*
+!textbooktopics/.gitignore
+__pycache__
+textbookgraphs/*
+!textbookgraphs/.gitignore
+docker-compose.yml
